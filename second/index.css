@@ -60,42 +60,82 @@ body {
 
 .container-one {
 	background: blue;
-	height: 20vh;
-	width: 20vw;
+	height: 24vh;
+	width: 97vw;
 	border: 5px solid black;
+	margin: 20px 20px;
 }
 
 .square-one {
     background: red;
-    height: 10vh;
-    width: 10vw;
+    height: 13vh;
+	width: 2.5vw;
+	float: left;
+	margin: 50px 13px;
 	}
 	
 	.square-two {
-		background: white;
-		height: 10vh;
-		width: 10vw;
+		background: rgba(92, 241, 46, 0.829);
+		height: 21vh;
+		width: 24vw;
+		float: left;
+		margin: 9px 88px;
 	}
 
-.container-two {
-	background: green;
-	height: 25vh;
-	width: 100vw;
-	border: 5px dotted black;
+	.circle	    
+	{ background: magenta;
+    height: 20vh;
+    width: 209px;
+    float: left;
+    margin: 15px 12px;
+    border-radius: 50%;
+	}
+
+	.container-two {
+		background: green;
+		height: 24vh;
+		width: 97vw;
+		border: 5px dotted black;
+		margin: 25vh -0.5vw;
+	}
+
+
+	.rectangle {
+		display: inline-block;
+		background: brown;
+		height: 18vh;
+		width: 90vw;
+		margin: 26px 3vw;
+		padding: 20px;
+	}
+
+	.container-three {
+		position: relative;
+		display: inline-block;
+		background: yellow;
+		height: 38vh;
+		width: 35vw;
+		border: groove 3px white;
+		margin: -20vh 30vw;
+	}
+
+h1 {
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	line-height: 15vh;
+	font-size: 60px;
 }
 
-.rectangle {
-	background: brown;
-	height: 10vh;
-	width: 10vw;
-	margin: 0 auto;
-	padding: 20px;
+h2 {
+	position: absolute;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	line-height: 15vh;
 }
 
 
-.container-three {
-	background: yellow;
-	height: 40px;
-	width: 20px;
-	margin: 50vh 50vw;
-}
+
