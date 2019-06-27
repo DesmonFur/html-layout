@@ -56,13 +56,46 @@ table {
 
 body {
     background-color: gray;
-    height: 100vh;
-    width: 40%;
 }
 
-.square-1 {
-    background: blue;
-    height: 100vh;
-    width: 10px;
-    
+.container-one {
+	background: blue;
+	height: 20vh;
+	width: 20vw;
+	border: 5px solid black;
+}
+
+.square-one {
+    background: red;
+    height: 10vh;
+    width: 10vw;
+	}
+	
+	.square-two {
+		background: white;
+		height: 10vh;
+		width: 10vw;
+	}
+
+.container-two {
+	background: green;
+	height: 25vh;
+	width: 100vw;
+	border: 5px dotted black;
+}
+
+.rectangle {
+	background: brown;
+	height: 10vh;
+	width: 10vw;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+
+.container-three {
+	background: yellow;
+	height: 40px;
+	width: 20px;
+	margin: 50vh 50vw;
 }
